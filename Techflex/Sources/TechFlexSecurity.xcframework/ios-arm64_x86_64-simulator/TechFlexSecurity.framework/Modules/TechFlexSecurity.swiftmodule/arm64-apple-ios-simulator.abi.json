@@ -1,0 +1,1250 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TechFlexSecurity",
+    "printedName": "TechFlexSecurity",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SecurityManager",
+        "printedName": "SecurityManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "locationError",
+            "printedName": "locationError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC13locationErrorSSSgvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC13locationErrorSSSgvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC13locationErrorSSSgvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC13locationErrorSSSgvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC13locationErrorSSSgvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC13locationErrorSSSgvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC13locationErrorSSSgvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC13locationErrorSSSgvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wifiSecurity",
+            "printedName": "wifiSecurity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC04wifiC0SSvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC04wifiC0SSvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC04wifiC0SSvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC04wifiC0SSvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC04wifiC0SSvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC04wifiC0SSvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC04wifiC0SSvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC04wifiC0SSvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "alertType",
+            "printedName": "alertType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TechFlexSecurity.AlertType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "TechFlexSecurity.AlertType",
+                    "usr": "s:16TechFlexSecurity9AlertTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TechFlexSecurity.AlertType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TechFlexSecurity.AlertType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9alertTypeAA05AlertF0OSgvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onAlertTypeChanged",
+            "printedName": "onAlertTypeChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TechFlexSecurity.AlertType) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TechFlexSecurity.AlertType) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((TechFlexSecurity.AlertType) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TechFlexSecurity.AlertType) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AlertType",
+                            "printedName": "TechFlexSecurity.AlertType",
+                            "usr": "s:16TechFlexSecurity9AlertTypeO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((TechFlexSecurity.AlertType) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(TechFlexSecurity.AlertType) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AlertType",
+                            "printedName": "TechFlexSecurity.AlertType",
+                            "usr": "s:16TechFlexSecurity9AlertTypeO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC18onAlertTypeChangedyAA0fG0OcSgvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wifiName",
+            "printedName": "wifiName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC8wifiNameSSvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC8wifiNameSSvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC8wifiNameSSvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC8wifiNameSSvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC8wifiNameSSvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC8wifiNameSSvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC8wifiNameSSvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC8wifiNameSSvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "vpnStatus",
+            "printedName": "vpnStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity0C7ManagerC9vpnStatusSSvp",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC9vpnStatusSSvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9vpnStatusSSvg",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9vpnStatusSSvg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9vpnStatusSSvs",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9vpnStatusSSvs",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity0C7ManagerC9vpnStatusSSvM",
+                "mangledName": "$s16TechFlexSecurity0C7ManagerC9vpnStatusSSvM",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SecurityManager",
+                "printedName": "TechFlexSecurity.SecurityManager",
+                "usr": "s:16TechFlexSecurity0C7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16TechFlexSecurity0C7ManagerCACycfc",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerCACycfc",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchSecurityStatus",
+            "printedName": "fetchSecurityStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TechFlexSecurity0C7ManagerC05fetchC6StatusyyF",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC05fetchC6StatusyyF",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAndUpdateVPNStatus",
+            "printedName": "checkAndUpdateVPNStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TechFlexSecurity0C7ManagerC23checkAndUpdateVPNStatusyyF",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC23checkAndUpdateVPNStatusyyF",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkAndUpdateProxyDetection",
+            "printedName": "checkAndUpdateProxyDetection()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TechFlexSecurity0C7ManagerC28checkAndUpdateProxyDetectionyyF",
+            "mangledName": "$s16TechFlexSecurity0C7ManagerC28checkAndUpdateProxyDetectionyyF",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16TechFlexSecurity0C7ManagerC",
+        "mangledName": "$s16TechFlexSecurity0C7ManagerC",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AlertType",
+        "printedName": "AlertType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity9AlertTypeO2idSSvp",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO2idSSvp",
+            "moduleName": "TechFlexSecurity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity9AlertTypeO2idSSvg",
+                "mangledName": "$s16TechFlexSecurity9AlertTypeO2idSSvg",
+                "moduleName": "TechFlexSecurity",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "proxyDetected",
+            "printedName": "proxyDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TechFlexSecurity.AlertType.Type) -> TechFlexSecurity.AlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "TechFlexSecurity.AlertType",
+                    "usr": "s:16TechFlexSecurity9AlertTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TechFlexSecurity.AlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TechFlexSecurity9AlertTypeO13proxyDetectedyA2CmF",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO13proxyDetectedyA2CmF",
+            "moduleName": "TechFlexSecurity"
+          },
+          {
+            "kind": "Var",
+            "name": "unSecureNetwork",
+            "printedName": "unSecureNetwork",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TechFlexSecurity.AlertType.Type) -> TechFlexSecurity.AlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "TechFlexSecurity.AlertType",
+                    "usr": "s:16TechFlexSecurity9AlertTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TechFlexSecurity.AlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TechFlexSecurity9AlertTypeO15unSecureNetworkyA2CmF",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO15unSecureNetworkyA2CmF",
+            "moduleName": "TechFlexSecurity"
+          },
+          {
+            "kind": "Var",
+            "name": "vpnDetected",
+            "printedName": "vpnDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TechFlexSecurity.AlertType.Type) -> TechFlexSecurity.AlertType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AlertType",
+                    "printedName": "TechFlexSecurity.AlertType",
+                    "usr": "s:16TechFlexSecurity9AlertTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TechFlexSecurity.AlertType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AlertType",
+                        "printedName": "TechFlexSecurity.AlertType",
+                        "usr": "s:16TechFlexSecurity9AlertTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16TechFlexSecurity9AlertTypeO11vpnDetectedyA2CmF",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO11vpnDetectedyA2CmF",
+            "moduleName": "TechFlexSecurity"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "TechFlexSecurity.AlertType",
+                "usr": "s:16TechFlexSecurity9AlertTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AlertType",
+                "printedName": "TechFlexSecurity.AlertType",
+                "usr": "s:16TechFlexSecurity9AlertTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TechFlexSecurity9AlertTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "TechFlexSecurity",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16TechFlexSecurity9AlertTypeO9hashValueSivp",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO9hashValueSivp",
+            "moduleName": "TechFlexSecurity",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16TechFlexSecurity9AlertTypeO9hashValueSivg",
+                "mangledName": "$s16TechFlexSecurity9AlertTypeO9hashValueSivg",
+                "moduleName": "TechFlexSecurity",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16TechFlexSecurity9AlertTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s16TechFlexSecurity9AlertTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "TechFlexSecurity",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16TechFlexSecurity9AlertTypeO",
+        "mangledName": "$s16TechFlexSecurity9AlertTypeO",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "TechFlexSecurity"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/TechFlexSecurity\/TechFlexSecurity\/NetworkStatusManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/TechFlexSecurity\/TechFlexSecurity\/ProxyDetection.swift",
+      "kind": "BooleanLiteral",
+      "offset": 812,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/TechFlexSecurity\/TechFlexSecurity\/SecurityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2614,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/TechFlexSecurity\/TechFlexSecurity\/SecurityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2750,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/vishal\/Desktop\/TechFlexSecurity\/TechFlexSecurity\/SecurityManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 9,
+      "value": "\"Unknown\""
+    }
+  ]
+}
